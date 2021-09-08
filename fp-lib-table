@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name STD80N6F6)(type KiCad)(uri "/home/groben/Documents/Repos/Beer Cooling System/PeltierSwitchingMainBoard/Libraries/footprints.pretty")(options "")(descr ""))
+  (lib (name PeltierSwitchingMainBoard)(type KiCad)(uri ${KIPRJMOD}/Libraries/PeltierSwitchingMainBoard.pretty)(options "")(descr ""))
+)

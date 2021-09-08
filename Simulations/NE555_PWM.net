@@ -1,0 +1,39 @@
+* Z:\home\groben\Documents\Repos\Beer Cooling System\PeltierSwitchingMainBoard\Simulations\NE555_PWM.asc
+XU1 0 N003 NE-Out Vcc N007 N003 N004 Vcc NE555
+V1 Vcc 0 12
+C1 N007 0 10n
+C2 N003 0 10p
+R1 N005 N003 80k
+R2 N003 N006 20k
+D1 NE-Out N005 1N4148
+D2 N006 NE-Out 1N4148
+R3 N004 0 1k
+J1 Fet-out P001 N002 2N5432
+R4 Vcc Fet-out 470
+R5 N002 0 220
+C4 N002 0 10n
+R10 Vcc npn-out 5k
+C3 N009 P002 10n
+R9 Vcc N009 20k
+C5 P001 N001 10n
+R7 npn-amp 0 220
+Q1 npn-out N009 npn-amp 0 BC817-40
+R11 Vcc NC_01 10k
+R13 NC_02 0 10k
+Q2 Vcc N008 N010 0 2N2222
+R12 N010 0 100
+C6 npn-amp 0 10n
+R6 P002 NE-Out 200
+R8 N009 0 2k
+.model D D
+.lib C:\users\groben\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\groben\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NJF NJF
+.model PJF PJF
+.lib C:\users\groben\Documents\LTspiceXVII\lib\cmp\standard.jft
+.tran 0 200u 150u 1u
+.lib NE555.sub
+.backanno
+.end
