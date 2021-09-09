@@ -888,7 +888,7 @@ F 3 "~" H 1950 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7700 2800 7700 3200
+	7700 2800 7700 2950
 Wire Wire Line
 	7700 1650 7700 2300
 $Comp
@@ -902,8 +902,6 @@ F 3 "" H 7400 2650 60  0000 C CNN
 	1    7400 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 2800 6200 3250
 Wire Wire Line
 	6200 2300 6200 1650
 Wire Wire Line
@@ -1358,4 +1356,30 @@ F 3 "~" H 3450 4600 50  0001 C CNN
 	1    3450 4600
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6200 2800 6200 2950
+Wire Wire Line
+	6200 2950 5900 2950
+Connection ~ 6200 2950
+Wire Wire Line
+	6200 2950 6200 3250
+Text Label 5900 2950 2    50   ~ 0
+AHS
+Wire Wire Line
+	7700 2950 8000 2950
+Connection ~ 7700 2950
+Wire Wire Line
+	7700 2950 7700 3200
+Text Label 8000 2950 0    50   ~ 0
+BHS
+Wire Wire Line
+	4150 3550 4450 3550
+Connection ~ 4150 3550
+Text Label 4450 3550 0    50   ~ 0
+BHS
+Wire Wire Line
+	4300 4150 4450 4150
+Connection ~ 4300 4150
+Text Label 4450 4150 0    50   ~ 0
+AHS
 $EndSCHEMATC
