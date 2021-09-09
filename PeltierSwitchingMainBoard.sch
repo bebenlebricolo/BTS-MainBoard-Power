@@ -30,7 +30,7 @@ U 1 1 6138C674
 P 5900 3900
 F 0 "U3" H 6330 4053 60  0000 L CNN
 F 1 "STD80N6F6" H 6330 3947 60  0000 L CNN
-F 2 "STD80N6F6:STD80N6F6" H 6350 3740 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 6350 3740 60  0001 C CNN
 F 3 "" H 5900 3900 60  0000 C CNN
 	1    5900 3900
 	1    0    0    -1  
@@ -213,12 +213,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR010
 U 1 1 613A9685
-P 3450 4450
-F 0 "#PWR010" H 3450 4200 50  0001 C CNN
-F 1 "GND" H 3455 4277 50  0000 C CNN
-F 2 "" H 3450 4450 50  0001 C CNN
-F 3 "" H 3450 4450 50  0001 C CNN
-	1    3450 4450
+P 3450 4750
+F 0 "#PWR010" H 3450 4500 50  0001 C CNN
+F 1 "GND" H 3455 4577 50  0000 C CNN
+F 2 "" H 3450 4750 50  0001 C CNN
+F 3 "" H 3450 4750 50  0001 C CNN
+	1    3450 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -362,9 +362,6 @@ Wire Wire Line
 Text Label 6700 1150 2    50   ~ 0
 Vcc
 Wire Wire Line
-	6200 4500 6950 4500
-Connection ~ 6950 4500
-Wire Wire Line
 	6950 4500 7700 4500
 $Comp
 L STD80N6F6:STD80N6F6 U2
@@ -372,7 +369,7 @@ U 1 1 613DD883
 P 5900 2650
 F 0 "U2" H 6330 2803 60  0000 L CNN
 F 1 "STD80N6F6" H 6330 2697 60  0000 L CNN
-F 2 "STD80N6F6:STD80N6F6" H 6350 2490 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 6350 2490 60  0001 C CNN
 F 3 "" H 5900 2650 60  0000 C CNN
 	1    5900 2650
 	1    0    0    -1  
@@ -383,14 +380,12 @@ U 1 1 613DED8D
 P 7400 3900
 F 0 "U5" H 7830 4053 60  0000 L CNN
 F 1 "STD80N6F6" H 7830 3947 60  0000 L CNN
-F 2 "STD80N6F6:STD80N6F6" H 7850 3740 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7850 3740 60  0001 C CNN
 F 3 "" H 7400 3900 60  0000 C CNN
 	1    7400 3900
 	1    0    0    -1  
 $EndComp
-Text Label 5600 2650 2    50   ~ 0
-AHO
-Text Label 5600 3900 2    50   ~ 0
+Text Label 5300 3900 2    50   ~ 0
 ALO
 Text Label 7100 2650 2    50   ~ 0
 BHO
@@ -436,9 +431,9 @@ Wire Wire Line
 	6200 4300 6050 4300
 Wire Wire Line
 	6200 4300 6200 4500
-Text Label 5900 4300 2    50   ~ 0
+Text Label 5600 4300 2    50   ~ 0
 ALS
-Text Label 8000 4300 0    50   ~ 0
+Text Label 8300 4300 0    50   ~ 0
 BLS
 $Comp
 L Device:C C9
@@ -543,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2200 2850 2200
 Wire Wire Line
-	3350 2200 3350 2650
+	3350 2200 3350 2250
 Wire Wire Line
 	2850 2100 2850 2200
 Connection ~ 2850 2200
@@ -750,10 +745,6 @@ F 3 "~" H 1150 6950 50  0001 C CNN
 $EndComp
 Text Label 950  5750 0    50   ~ 0
 BLO
-Text Label 950  6050 0    50   ~ 0
-ALO
-Text Label 950  6350 0    50   ~ 0
-AHO
 Wire Wire Line
 	3950 3050 4400 3050
 Connection ~ 3950 3050
@@ -839,28 +830,16 @@ F 3 "" H 1950 1650 50  0001 C CNN
 	1    1950 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 61533EB5
-P 2450 6400
-F 0 "J3" H 2530 6392 50  0000 L CNN
-F 1 "Molex Micro Lock (1.25mm 1.5A)" H 2530 6301 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Molex_MicroLock_1.25_01x06" H 2450 6400 50  0001 C CNN
-F 3 "~" H 2450 6400 50  0001 C CNN
-	1    2450 6400
-	1    0    0    -1  
-$EndComp
-Text Label 2250 6200 2    50   ~ 0
-IN+
-Text Label 2250 6300 2    50   ~ 0
-IN-
-Text Label 2250 6400 2    50   ~ 0
-Disable
 Text Label 2250 6500 2    50   ~ 0
-HEN
+IN+
 Text Label 2250 6600 2    50   ~ 0
+IN-
+Text Label 2250 6300 2    50   ~ 0
+Disable
+Text Label 2250 6200 2    50   ~ 0
+HEN
+Text Label 2250 6700 2    50   ~ 0
 VSense
-NoConn ~ 2250 6700
 Wire Wire Line
 	6200 3250 6400 3250
 Wire Wire Line
@@ -918,7 +897,7 @@ U 1 1 613DE25E
 P 7400 2650
 F 0 "U4" H 7830 2803 60  0000 L CNN
 F 1 "STD80N6F6" H 7830 2697 60  0000 L CNN
-F 2 "STD80N6F6:STD80N6F6" H 7850 2490 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7850 2490 60  0001 C CNN
 F 3 "" H 7400 2650 60  0000 C CNN
 	1    7400 2650
 	1    0    0    -1  
@@ -1112,5 +1091,271 @@ F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 2850 50  0001
 F 3 "~" H 10050 2850 50  0001 C CNN
 	1    10050 2850
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4500 6350 4500
+Wire Wire Line
+	6650 4500 6950 4500
+Connection ~ 6950 4500
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61404D1E
+P 9700 4500
+F 0 "H1" V 9654 4650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9745 4650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_TopOnly" H 9700 4500 50  0001 C CNN
+F 3 "~" H 9700 4500 50  0001 C CNN
+	1    9700 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 61405CC5
+P 9600 4500
+F 0 "#PWR015" H 9600 4250 50  0001 C CNN
+F 1 "GND" H 9605 4327 50  0000 C CNN
+F 2 "" H 9600 4500 50  0001 C CNN
+F 3 "" H 9600 4500 50  0001 C CNN
+	1    9600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61407023
+P 9700 4700
+F 0 "H2" V 9654 4850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9745 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_TopOnly" H 9700 4700 50  0001 C CNN
+F 3 "~" H 9700 4700 50  0001 C CNN
+	1    9700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 61407029
+P 9600 4700
+F 0 "#PWR016" H 9600 4450 50  0001 C CNN
+F 1 "GND" H 9605 4527 50  0000 C CNN
+F 2 "" H 9600 4700 50  0001 C CNN
+F 3 "" H 9600 4700 50  0001 C CNN
+	1    9600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 614098FC
+P 9700 4900
+F 0 "H3" V 9654 5050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9745 5050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_TopOnly" H 9700 4900 50  0001 C CNN
+F 3 "~" H 9700 4900 50  0001 C CNN
+	1    9700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 61409902
+P 9600 4900
+F 0 "#PWR017" H 9600 4650 50  0001 C CNN
+F 1 "GND" H 9605 4727 50  0000 C CNN
+F 2 "" H 9600 4900 50  0001 C CNN
+F 3 "" H 9600 4900 50  0001 C CNN
+	1    9600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6140C0B9
+P 9700 5100
+F 0 "H4" V 9654 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9745 5250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_TopOnly" H 9700 5100 50  0001 C CNN
+F 3 "~" H 9700 5100 50  0001 C CNN
+	1    9700 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6140C0BF
+P 9600 5100
+F 0 "#PWR018" H 9600 4850 50  0001 C CNN
+F 1 "GND" H 9605 4927 50  0000 C CNN
+F 2 "" H 9600 5100 50  0001 C CNN
+F 3 "" H 9600 5100 50  0001 C CNN
+	1    9600 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 61533EB5
+P 2450 6400
+F 0 "J3" H 2530 6392 50  0000 L CNN
+F 1 "Molex Micro Lock (1.25mm 1.5A)" H 2530 6301 50  0000 L CNN
+F 2 "PeltierSwitchingMainBoard:Molex_MicroLock_1.25_01x06" H 2450 6400 50  0001 C CNN
+F 3 "~" H 2450 6400 50  0001 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6141E90C
+P 2250 6400
+F 0 "#PWR0103" H 2250 6150 50  0001 C CNN
+F 1 "GND" H 2255 6227 50  0000 C CNN
+F 2 "" H 2250 6400 50  0001 C CNN
+F 3 "" H 2250 6400 50  0001 C CNN
+	1    2250 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 613F0189
+P 6500 4500
+F 0 "R12" V 6293 4500 50  0000 C CNN
+F 1 "0" V 6384 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 6430 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	0    1    1    0   
+$EndComp
+Text Label 5300 2650 2    50   ~ 0
+AHO
+$Comp
+L Device:R R13
+U 1 1 6142FCF2
+P 5450 2650
+F 0 "R13" V 5243 2650 50  0000 C CNN
+F 1 "0" V 5334 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5380 2650 50  0001 C CNN
+F 3 "~" H 5450 2650 50  0001 C CNN
+	1    5450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61448CAE
+P 5750 4300
+F 0 "R14" V 5543 4300 50  0000 C CNN
+F 1 "0" V 5634 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5680 4300 50  0001 C CNN
+F 3 "~" H 5750 4300 50  0001 C CNN
+	1    5750 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61486807
+P 3350 2400
+F 0 "R15" V 3143 2400 50  0000 C CNN
+F 1 "0" V 3234 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3280 2400 50  0001 C CNN
+F 3 "~" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 2550 3350 2650
+$Comp
+L Device:R R16
+U 1 1 61491841
+P 5450 3900
+F 0 "R16" V 5243 3900 50  0000 C CNN
+F 1 "0" V 5334 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5380 3900 50  0001 C CNN
+F 3 "~" H 5450 3900 50  0001 C CNN
+	1    5450 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 6149BA90
+P 8150 4300
+F 0 "R17" V 7943 4300 50  0000 C CNN
+F 1 "0" V 8034 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8080 4300 50  0001 C CNN
+F 3 "~" H 8150 4300 50  0001 C CNN
+	1    8150 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3900 5600 4050
+Wire Wire Line
+	5600 4050 5300 4050
+Connection ~ 5600 3900
+Text Label 5300 4050 2    50   ~ 0
+ALO-gate
+Text Label 950  6050 0    50   ~ 0
+ALO-gate
+Wire Wire Line
+	5600 2650 5600 2800
+Wire Wire Line
+	5600 2800 5300 2800
+Connection ~ 5600 2650
+Text Label 5300 2800 2    50   ~ 0
+AHO-gate
+Text Label 950  6350 0    50   ~ 0
+AHO-gate
+Text Notes 4100 5250 0    50   ~ 0
+Jumpers (because no vias)
+$Comp
+L Device:R R18
+U 1 1 614E8E43
+P 4550 5100
+F 0 "R18" V 4343 5100 50  0000 C CNN
+F 1 "0" V 4434 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 4480 5100 50  0001 C CNN
+F 3 "~" H 4550 5100 50  0001 C CNN
+	1    4550 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 614FCBBB
+P 4400 5100
+F 0 "#PWR0104" H 4400 4850 50  0001 C CNN
+F 1 "GND" H 4405 4927 50  0000 C CNN
+F 2 "" H 4400 5100 50  0001 C CNN
+F 3 "" H 4400 5100 50  0001 C CNN
+	1    4400 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 614FD279
+P 4700 5100
+F 0 "#PWR0105" H 4700 4850 50  0001 C CNN
+F 1 "GND" H 4705 4927 50  0000 C CNN
+F 2 "" H 4700 5100 50  0001 C CNN
+F 3 "" H 4700 5100 50  0001 C CNN
+	1    4700 5100
+	0    -1   -1   0   
+$EndComp
+Text Notes 4100 5650 0    50   ~ 0
+Jumpers (because no vias)
+$Comp
+L Device:R R19
+U 1 1 615047CD
+P 4550 5500
+F 0 "R19" V 4343 5500 50  0000 C CNN
+F 1 "0" V 4434 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 4480 5500 50  0001 C CNN
+F 3 "~" H 4550 5500 50  0001 C CNN
+	1    4550 5500
+	0    1    1    0   
+$EndComp
+Text Label 4400 5500 2    50   ~ 0
+Vcc
+Text Label 4700 5500 0    50   ~ 0
+Vcc
+$Comp
+L Device:R R20
+U 1 1 61520E11
+P 3450 4600
+F 0 "R20" V 3243 4600 50  0000 C CNN
+F 1 "0" V 3334 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3380 4600 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
