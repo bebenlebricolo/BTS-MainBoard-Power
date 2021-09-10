@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.10*%
+%TF.CreationDate,2021-09-10T11:09:33+02:00*%
+%TF.ProjectId,PeltierSwitchingMainBoard,50656c74-6965-4725-9377-69746368696e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.10) date 2021-09-10 11:09:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,4.400000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H3*%
+X252730000Y-46990000D03*
+%TD*%
+%TO.C,H4*%
+X166370000Y-46990000D03*
+%TD*%
+%TO.C,H2*%
+X166370000Y-127000000D03*
+%TD*%
+%TO.C,H1*%
+X252730000Y-127000000D03*
+%TD*%
+M02*

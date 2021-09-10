@@ -1,4 +1,4 @@
-19220331864341135
+19223594260496135
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72575,6 +72575,20 @@ Bourns SRP1245A SMD inductor
 0
 2
 2
+PeltierSwitchingMainBoard
+Mezzanine_board_14contacts
+
+
+0
+14
+14
+PeltierSwitchingMainBoard
+Mezzanine_board_14contacts_smd
+
+
+0
+14
+14
 PeltierSwitchingMainBoard
 Molex_MicroLock_1.25_01x06
 
