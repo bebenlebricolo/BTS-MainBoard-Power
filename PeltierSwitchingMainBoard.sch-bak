@@ -871,7 +871,7 @@ U 1 1 613B3FD9
 P 2650 4950
 F 0 "J12" H 2730 4942 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 4851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 4950 50  0001 C CNN
 F 3 "~" H 2650 4950 50  0001 C CNN
 	1    2650 4950
 	1    0    0    -1  
@@ -895,7 +895,7 @@ U 1 1 613B67D4
 P 2650 5250
 F 0 "J13" H 2730 5242 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 5151 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5250 50  0001 C CNN
 F 3 "~" H 2650 5250 50  0001 C CNN
 	1    2650 5250
 	1    0    0    -1  
@@ -919,7 +919,7 @@ U 1 1 613BB83E
 P 2650 5550
 F 0 "J14" H 2730 5542 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 5451 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5550 50  0001 C CNN
 F 3 "~" H 2650 5550 50  0001 C CNN
 	1    2650 5550
 	1    0    0    -1  
@@ -943,7 +943,7 @@ U 1 1 613BCB9D
 P 2650 5850
 F 0 "J15" H 2730 5842 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 5751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 5850 50  0001 C CNN
 F 3 "~" H 2650 5850 50  0001 C CNN
 	1    2650 5850
 	1    0    0    -1  
@@ -967,7 +967,7 @@ U 1 1 613BE046
 P 2650 6150
 F 0 "J16" H 2730 6142 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 6051 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6150 50  0001 C CNN
 F 3 "~" H 2650 6150 50  0001 C CNN
 	1    2650 6150
 	1    0    0    -1  
@@ -991,7 +991,7 @@ U 1 1 613BF426
 P 2650 6450
 F 0 "J17" H 2730 6442 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 6351 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6450 50  0001 C CNN
 F 3 "~" H 2650 6450 50  0001 C CNN
 	1    2650 6450
 	1    0    0    -1  
@@ -1015,7 +1015,7 @@ U 1 1 613C08F8
 P 2650 6750
 F 0 "J18" H 2730 6742 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 6651 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 6750 50  0001 C CNN
 F 3 "~" H 2650 6750 50  0001 C CNN
 	1    2650 6750
 	1    0    0    -1  
@@ -1039,7 +1039,7 @@ U 1 1 613C1D17
 P 2650 7050
 F 0 "J19" H 2730 7042 50  0000 L CNN
 F 1 "Conn_01x02" H 2730 6951 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 7050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2650 7050 50  0001 C CNN
 F 3 "~" H 2650 7050 50  0001 C CNN
 	1    2650 7050
 	1    0    0    -1  
@@ -1067,4 +1067,12 @@ Wire Notes Line
 	1850 7350 1850 4800
 Text Notes 1900 4700 0    50   ~ 0
 Peltier fans connectors (40x40mm fans)\n- No throttling
+Text Notes 7400 7500 0    71   Italic 14
+Beer thermoregulation system (main board, power section)
+Text Notes 10575 7625 0    50   ~ 0
+1.0
+Text Notes 8175 7625 0    50   ~ 0
+10/09/2021 (dd/mm/yyyy)
+Text Notes 7000 7100 0    50   ~ 0
+Beer thermoregulation main power board. This board embeds the heart\nof the thermoregulation device, which is essentially a full bridge mosfet\ncircuit driven by a signal coming from the control board (mezzanine).\nThe full bridge powers several inductors in parallel (10µH each) in the aim to achieve 40A steady \ncurrent capacity, required to drive 8 Peltier modules at full power.\nThe inductors are meant to smooth out the output current in order to\nmax out the Peltier modules efficiency.
 $EndSCHEMATC

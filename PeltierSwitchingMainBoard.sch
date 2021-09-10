@@ -1067,4 +1067,14 @@ Wire Notes Line
 	1850 7350 1850 4800
 Text Notes 1900 4700 0    50   ~ 0
 Peltier fans connectors (40x40mm fans)\n- No throttling
+Text Notes 7400 7500 0    71   Italic 14
+Beer thermoregulation system (main board, power section)
+Text Notes 10575 7625 0    50   ~ 0
+1.0
+Text Notes 8175 7625 0    50   ~ 0
+10/09/2021 (dd/mm/yyyy)
+Text Notes 7000 7100 0    50   ~ 0
+Beer thermoregulation main power board. This board embeds the heart\nof the thermoregulation device, which is essentially a full bridge mosfet\ncircuit driven by a signal coming from the control board (mezzanine).\nThe full bridge powers several inductors in parallel (10µH each) in the aim to achieve 40A steady \ncurrent capacity, required to drive 8 Peltier modules at full power.\nThe inductors are meant to smooth out the output current in order to\nmax out the Peltier modules efficiency.
+Text Notes 9800 6450 0    50   Italic 0
+Designed by Benoit Tarrade\n(alias bebenlebricolo)\nhttps://github.com/bebenlebricolo
 $EndSCHEMATC
