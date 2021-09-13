@@ -1,4 +1,4 @@
-19223594260496135
+19210545177181135
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72568,55 +72568,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-PeltierSwitchingMainBoard
-L_Bourns_SRP1270
-Bourns SRP1245A series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRP1245A.pdf
-Bourns SRP1245A SMD inductor
-0
-2
-2
-PeltierSwitchingMainBoard
-Mezzanine_board_14contacts
-
-
-0
-14
-14
-PeltierSwitchingMainBoard
-Mezzanine_board_14contacts_smd
-
-
-0
-14
-14
-PeltierSwitchingMainBoard
-Molex_MicroLock_1.25_01x06
-
-
-0
-6
-6
-PeltierSwitchingMainBoard
-Power_Solder_Pad_5x10mm
-
-
-0
-1
-1
-PeltierSwitchingMainBoard
-Power_Solder_Pad_5x10mm_02
-
-
-0
-2
-2
-PeltierSwitchingMainBoard
-Power_Solder_Pad_7x15mm
-
-
-0
-1
-1
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -76341,13 +76292,6 @@ rotary encoder
 0
 5
 4
-STD80N6F6
-STD80N6F6
-
-
-0
-3
-3
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
