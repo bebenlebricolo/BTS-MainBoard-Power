@@ -728,8 +728,6 @@ F 3 "~" H 2850 3150 50  0001 C CNN
 	1    2850 3150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2650 2550
-NoConn ~ 2650 3050
 Text Label 2650 2650 2    50   ~ 0
 AHS
 Text Label 2650 2750 2    50   ~ 0
@@ -763,8 +761,6 @@ F 3 "" H 2650 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 4500 6950 4500
-Text Label 2650 3750 2    50   ~ 0
-Vcc
 $Comp
 L Device:R R1
 U 1 1 613A4DF3
@@ -824,19 +820,6 @@ F 3 "~" H 2650 4950 50  0001 C CNN
 	1    2650 4950
 	1    0    0    -1  
 $EndComp
-Text Label 2450 4950 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR08
-U 1 1 613B59DC
-P 2450 5050
-F 0 "#PWR08" H 2450 4800 50  0001 C CNN
-F 1 "GND" H 2455 4877 50  0000 C CNN
-F 2 "" H 2450 5050 50  0001 C CNN
-F 3 "" H 2450 5050 50  0001 C CNN
-	1    2450 5050
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 613B67D4
@@ -847,19 +830,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 
 F 3 "~" H 2650 5250 50  0001 C CNN
 	1    2650 5250
 	1    0    0    -1  
-$EndComp
-Text Label 2450 5250 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR09
-U 1 1 613B697D
-P 2450 5350
-F 0 "#PWR09" H 2450 5100 50  0001 C CNN
-F 1 "GND" H 2455 5177 50  0000 C CNN
-F 2 "" H 2450 5350 50  0001 C CNN
-F 3 "" H 2450 5350 50  0001 C CNN
-	1    2450 5350
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J14
@@ -872,19 +842,6 @@ F 3 "~" H 2650 5550 50  0001 C CNN
 	1    2650 5550
 	1    0    0    -1  
 $EndComp
-Text Label 2450 5550 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR010
-U 1 1 613BB845
-P 2450 5650
-F 0 "#PWR010" H 2450 5400 50  0001 C CNN
-F 1 "GND" H 2455 5477 50  0000 C CNN
-F 2 "" H 2450 5650 50  0001 C CNN
-F 3 "" H 2450 5650 50  0001 C CNN
-	1    2450 5650
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J15
 U 1 1 613BCB9D
@@ -895,19 +852,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 
 F 3 "~" H 2650 5850 50  0001 C CNN
 	1    2650 5850
 	1    0    0    -1  
-$EndComp
-Text Label 2450 5850 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR019
-U 1 1 613BCBA4
-P 2450 5950
-F 0 "#PWR019" H 2450 5700 50  0001 C CNN
-F 1 "GND" H 2455 5777 50  0000 C CNN
-F 2 "" H 2450 5950 50  0001 C CNN
-F 3 "" H 2450 5950 50  0001 C CNN
-	1    2450 5950
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J16
@@ -920,19 +864,6 @@ F 3 "~" H 2650 6150 50  0001 C CNN
 	1    2650 6150
 	1    0    0    -1  
 $EndComp
-Text Label 2450 6150 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR020
-U 1 1 613BE04D
-P 2450 6250
-F 0 "#PWR020" H 2450 6000 50  0001 C CNN
-F 1 "GND" H 2455 6077 50  0000 C CNN
-F 2 "" H 2450 6250 50  0001 C CNN
-F 3 "" H 2450 6250 50  0001 C CNN
-	1    2450 6250
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J17
 U 1 1 613BF426
@@ -943,19 +874,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 
 F 3 "~" H 2650 6450 50  0001 C CNN
 	1    2650 6450
 	1    0    0    -1  
-$EndComp
-Text Label 2450 6450 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR021
-U 1 1 613BF42D
-P 2450 6550
-F 0 "#PWR021" H 2450 6300 50  0001 C CNN
-F 1 "GND" H 2455 6377 50  0000 C CNN
-F 2 "" H 2450 6550 50  0001 C CNN
-F 3 "" H 2450 6550 50  0001 C CNN
-	1    2450 6550
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J18
@@ -968,19 +886,6 @@ F 3 "~" H 2650 6750 50  0001 C CNN
 	1    2650 6750
 	1    0    0    -1  
 $EndComp
-Text Label 2450 6750 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR022
-U 1 1 613C08FF
-P 2450 6850
-F 0 "#PWR022" H 2450 6600 50  0001 C CNN
-F 1 "GND" H 2455 6677 50  0000 C CNN
-F 2 "" H 2450 6850 50  0001 C CNN
-F 3 "" H 2450 6850 50  0001 C CNN
-	1    2450 6850
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J19
 U 1 1 613C1D17
@@ -992,27 +897,8 @@ F 3 "~" H 2650 7050 50  0001 C CNN
 	1    2650 7050
 	1    0    0    -1  
 $EndComp
-Text Label 2450 7050 2    50   ~ 0
-Vcc
-$Comp
-L power:GND #PWR023
-U 1 1 613C1D1E
-P 2450 7150
-F 0 "#PWR023" H 2450 6900 50  0001 C CNN
-F 1 "GND" H 2455 6977 50  0000 C CNN
-F 2 "" H 2450 7150 50  0001 C CNN
-F 3 "" H 2450 7150 50  0001 C CNN
-	1    2450 7150
-	0    1    1    0   
-$EndComp
 Wire Notes Line
-	1850 4800 3400 4800
-Wire Notes Line
-	3400 4800 3400 7350
-Wire Notes Line
-	3400 7350 1850 7350
-Wire Notes Line
-	1850 7350 1850 4800
+	1625 7350 1625 4800
 Text Notes 1900 4700 0    50   ~ 0
 Peltier fans connectors (40x40mm fans)\n- No throttling
 Text Notes 7400 7500 0    71   Italic 14
@@ -1077,4 +963,113 @@ F 3 "~" H 6100 3850 50  0001 C CNN
 	1    6100 3850
 	1    0    0    -1  
 $EndComp
+Text Label 2650 3750 2    50   ~ 0
+FanDrive
+Wire Wire Line
+	2075 7050 2450 7050
+Wire Wire Line
+	2450 6750 2075 6750
+Connection ~ 2075 6750
+Wire Wire Line
+	2075 6750 2075 7050
+Wire Wire Line
+	2450 6450 2075 6450
+Connection ~ 2075 6450
+Wire Wire Line
+	2075 6450 2075 6750
+Wire Wire Line
+	2450 6150 2075 6150
+Connection ~ 2075 6150
+Wire Wire Line
+	2075 6150 2075 6450
+Wire Wire Line
+	2450 5850 2075 5850
+Connection ~ 2075 5850
+Wire Wire Line
+	2075 5850 2075 6150
+Wire Wire Line
+	2450 5550 2075 5550
+Connection ~ 2075 5550
+Wire Wire Line
+	2075 5550 2075 5850
+Wire Wire Line
+	2450 5250 2075 5250
+Connection ~ 2075 5250
+Wire Wire Line
+	2075 5250 2075 5550
+Wire Wire Line
+	2450 4950 2075 4950
+Connection ~ 2075 4950
+Wire Wire Line
+	2075 4950 2075 5250
+Wire Wire Line
+	2600 5200 2600 5050
+Wire Wire Line
+	2600 5050 2450 5050
+Wire Wire Line
+	2450 5050 2200 5050
+Wire Wire Line
+	2200 7150 2450 7150
+Connection ~ 2450 5050
+Wire Wire Line
+	2450 6850 2200 6850
+Connection ~ 2200 6850
+Wire Wire Line
+	2200 6850 2200 7150
+Wire Wire Line
+	2450 6550 2200 6550
+Connection ~ 2200 6550
+Wire Wire Line
+	2200 6550 2200 6850
+Wire Wire Line
+	2450 6250 2200 6250
+Connection ~ 2200 6250
+Wire Wire Line
+	2200 6250 2200 6550
+Wire Wire Line
+	2450 5950 2200 5950
+Connection ~ 2200 5950
+Wire Wire Line
+	2200 5950 2200 6250
+Wire Wire Line
+	2450 5650 2200 5650
+Wire Wire Line
+	2200 5050 2200 5350
+Connection ~ 2200 5650
+Wire Wire Line
+	2200 5650 2200 5950
+Wire Wire Line
+	2450 5350 2200 5350
+Connection ~ 2200 5350
+Wire Wire Line
+	2200 5350 2200 5650
+Text Label 1975 7150 2    50   ~ 0
+FanDrive
+Text Label 2000 4950 2    50   ~ 0
+Vcc
+Wire Wire Line
+	2075 4950 2000 4950
+Wire Notes Line
+	1625 4800 3400 4800
+Wire Notes Line
+	1625 7350 3400 7350
+Wire Notes Line
+	3400 4800 3400 7350
+Wire Wire Line
+	1975 7150 2200 7150
+Connection ~ 2200 7150
+Text Label 2650 2550 2    50   ~ 0
+AHB
+Text Label 2650 3050 2    50   ~ 0
+BHB
+Text Label 2100 2525 0    50   ~ 0
+AHB
+Wire Wire Line
+	2100 2525 1800 2525
+Wire Wire Line
+	2100 3050 1800 3050
+Text Label 2100 3050 0    50   ~ 0
+BHB
+NoConn ~ 1800 2525
+NoConn ~ 1800 3050
 $EndSCHEMATC
