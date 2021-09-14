@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STD80N6F6:STD80N6F6 U3
-U 1 1 6138C674
-P 5900 3900
-F 0 "U3" H 6330 4053 60  0000 L CNN
-F 1 "STD80N6F6" H 6330 3947 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 6350 3740 60  0001 C CNN
-F 3 "" H 5900 3900 60  0000 C CNN
-	1    5900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR01
 U 1 1 61392966
 P 1350 1100
@@ -137,45 +126,45 @@ Vcc
 $Comp
 L Device:R R7
 U 1 1 613B719E
-P 5750 2650
-F 0 "R7" V 5543 2650 50  0000 C CNN
-F 1 "3.3" V 5634 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5680 2650 50  0001 C CNN
-F 3 "~" H 5750 2650 50  0001 C CNN
-	1    5750 2650
+P 5750 2600
+F 0 "R7" V 5543 2600 50  0000 C CNN
+F 1 "3.3" V 5634 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5680 2600 50  0001 C CNN
+F 3 "~" H 5750 2600 50  0001 C CNN
+	1    5750 2600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 613BA065
-P 5750 3900
-F 0 "R8" V 5543 3900 50  0000 C CNN
-F 1 "3.3" V 5634 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5680 3900 50  0001 C CNN
-F 3 "~" H 5750 3900 50  0001 C CNN
-	1    5750 3900
+P 5750 3850
+F 0 "R8" V 5543 3850 50  0000 C CNN
+F 1 "3.3" V 5634 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5680 3850 50  0001 C CNN
+F 3 "~" H 5750 3850 50  0001 C CNN
+	1    5750 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 613C9CA0
-P 7250 2650
-F 0 "R10" V 7043 2650 50  0000 C CNN
-F 1 "3.3" V 7134 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 2650 50  0001 C CNN
-F 3 "~" H 7250 2650 50  0001 C CNN
-	1    7250 2650
+P 7250 2600
+F 0 "R10" V 7043 2600 50  0000 C CNN
+F 1 "3.3" V 7134 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 2600 50  0001 C CNN
+F 3 "~" H 7250 2600 50  0001 C CNN
+	1    7250 2600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 613CB9E6
-P 7250 3900
-F 0 "R11" V 7043 3900 50  0000 C CNN
-F 1 "3.3" V 7134 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 3900 50  0001 C CNN
-F 3 "~" H 7250 3900 50  0001 C CNN
-	1    7250 3900
+P 7250 3850
+F 0 "R11" V 7043 3850 50  0000 C CNN
+F 1 "3.3" V 7134 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 3850 50  0001 C CNN
+F 3 "~" H 7250 3850 50  0001 C CNN
+	1    7250 3850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -191,33 +180,11 @@ Text Label 6700 1150 2    50   ~ 0
 Vcc
 Wire Wire Line
 	6950 4500 7700 4500
-$Comp
-L STD80N6F6:STD80N6F6 U2
-U 1 1 613DD883
-P 5900 2650
-F 0 "U2" H 6330 2803 60  0000 L CNN
-F 1 "STD80N6F6" H 6330 2697 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 6350 2490 60  0001 C CNN
-F 3 "" H 5900 2650 60  0000 C CNN
-	1    5900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L STD80N6F6:STD80N6F6 U5
-U 1 1 613DED8D
-P 7400 3900
-F 0 "U5" H 7830 4053 60  0000 L CNN
-F 1 "STD80N6F6" H 7830 3947 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 7850 3740 60  0001 C CNN
-F 3 "" H 7400 3900 60  0000 C CNN
-	1    7400 3900
-	1    0    0    -1  
-$EndComp
-Text Label 5600 3900 2    50   ~ 0
+Text Label 5600 3850 2    50   ~ 0
 ALO
-Text Label 7100 2650 2    50   ~ 0
+Text Label 7100 2600 2    50   ~ 0
 BHO
-Text Label 7100 3900 2    50   ~ 0
+Text Label 7100 3850 2    50   ~ 0
 BLO
 Wire Wire Line
 	6950 4850 6600 4850
@@ -320,7 +287,7 @@ U 1 1 61458D02
 P 6600 3400
 F 0 "L3" V 6790 3400 50  0000 C CNN
 F 1 "SRP1270-100M" V 6699 3400 50  0000 C CNN
-F 2 "PeltierSwitchingMainBoard:L_Bourns_SRP1270" H 6600 3400 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:L_Bourns_SRP1270" H 6600 3400 50  0001 C CNN
 F 3 "~" H 6600 3400 50  0001 C CNN
 	1    6600 3400
 	0    -1   -1   0   
@@ -331,7 +298,7 @@ U 1 1 614593EC
 P 6600 3650
 F 0 "L4" V 6790 3650 50  0000 C CNN
 F 1 "SRP1270-100M" V 6699 3650 50  0000 C CNN
-F 2 "PeltierSwitchingMainBoard:L_Bourns_SRP1270" H 6600 3650 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:L_Bourns_SRP1270" H 6600 3650 50  0001 C CNN
 F 3 "~" H 6600 3650 50  0001 C CNN
 	1    6600 3650
 	0    -1   -1   0   
@@ -345,7 +312,7 @@ U 1 1 614724B6
 P 6600 2900
 F 0 "L1" V 6790 2900 50  0000 C CNN
 F 1 "SRP1270-100M" V 6699 2900 50  0000 C CNN
-F 2 "PeltierSwitchingMainBoard:L_Bourns_SRP1270" H 6600 2900 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:L_Bourns_SRP1270" H 6600 2900 50  0001 C CNN
 F 3 "~" H 6600 2900 50  0001 C CNN
 	1    6600 2900
 	0    -1   -1   0   
@@ -356,7 +323,7 @@ U 1 1 614724BC
 P 6600 3200
 F 0 "L2" V 6790 3200 50  0000 C CNN
 F 1 "SRP1270-100M" V 6699 3200 50  0000 C CNN
-F 2 "PeltierSwitchingMainBoard:L_Bourns_SRP1270" H 6600 3200 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:L_Bourns_SRP1270" H 6600 3200 50  0001 C CNN
 F 3 "~" H 6600 3200 50  0001 C CNN
 	1    6600 3200
 	0    -1   -1   0   
@@ -461,23 +428,6 @@ F 3 "~" H 1950 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 2800 7700 2950
-Wire Wire Line
-	7700 1650 7700 2300
-$Comp
-L STD80N6F6:STD80N6F6 U4
-U 1 1 613DE25E
-P 7400 2650
-F 0 "U4" H 7830 2803 60  0000 L CNN
-F 1 "STD80N6F6" H 7830 2697 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 7850 2490 60  0001 C CNN
-F 3 "" H 7400 2650 60  0000 C CNN
-	1    7400 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2300 6200 1650
-Wire Wire Line
-	7700 3550 7700 3200
 Connection ~ 7700 3200
 Wire Wire Line
 	7700 4050 7700 4300
@@ -485,8 +435,6 @@ Connection ~ 7700 4300
 Wire Wire Line
 	6200 4050 6200 4300
 Connection ~ 6200 4300
-Wire Wire Line
-	6200 3550 6200 3250
 Connection ~ 6200 3250
 $Comp
 L Connector_Generic:Conn_01x01 J1
@@ -494,7 +442,7 @@ U 1 1 615BC89C
 P 4250 1100
 F 0 "J1" H 4330 1142 50  0000 L CNN
 F 1 "+12VIn" H 4330 1051 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_7x15mm" H 4250 1100 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_7x15mm" H 4250 1100 50  0001 C CNN
 F 3 "~" H 4250 1100 50  0001 C CNN
 	1    4250 1100
 	1    0    0    -1  
@@ -505,7 +453,7 @@ U 1 1 615BCCE9
 P 4250 1300
 F 0 "J2" H 4330 1342 50  0000 L CNN
 F 1 "GNDIn" H 4330 1251 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_7x15mm" H 4250 1300 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_7x15mm" H 4250 1300 50  0001 C CNN
 F 3 "~" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	1    0    0    -1  
@@ -552,7 +500,7 @@ U 1 1 615FBF46
 P 10050 1100
 F 0 "J4" H 10130 1092 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1001 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 1100 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 1100 50  0001 C CNN
 F 3 "~" H 10050 1100 50  0001 C CNN
 	1    10050 1100
 	1    0    0    -1  
@@ -567,7 +515,7 @@ U 1 1 616066E1
 P 10050 1350
 F 0 "J5" H 10130 1342 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1251 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 1350 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 1350 50  0001 C CNN
 F 3 "~" H 10050 1350 50  0001 C CNN
 	1    10050 1350
 	1    0    0    -1  
@@ -582,7 +530,7 @@ U 1 1 61608BC3
 P 10050 1600
 F 0 "J6" H 10130 1592 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1501 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 1600 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 1600 50  0001 C CNN
 F 3 "~" H 10050 1600 50  0001 C CNN
 	1    10050 1600
 	1    0    0    -1  
@@ -597,7 +545,7 @@ U 1 1 6160B0A7
 P 10050 1850
 F 0 "J7" H 10130 1842 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1751 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 1850 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 1850 50  0001 C CNN
 F 3 "~" H 10050 1850 50  0001 C CNN
 	1    10050 1850
 	1    0    0    -1  
@@ -612,7 +560,7 @@ U 1 1 6160D63C
 P 10050 2100
 F 0 "J8" H 10130 2092 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 2001 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 2100 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 2100 50  0001 C CNN
 F 3 "~" H 10050 2100 50  0001 C CNN
 	1    10050 2100
 	1    0    0    -1  
@@ -627,7 +575,7 @@ U 1 1 6160FC0A
 P 10050 2350
 F 0 "J9" H 10130 2342 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 2251 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 2350 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 2350 50  0001 C CNN
 F 3 "~" H 10050 2350 50  0001 C CNN
 	1    10050 2350
 	1    0    0    -1  
@@ -642,7 +590,7 @@ U 1 1 616121F0
 P 10050 2600
 F 0 "J10" H 10130 2592 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 2501 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 2600 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 2600 50  0001 C CNN
 F 3 "~" H 10050 2600 50  0001 C CNN
 	1    10050 2600
 	1    0    0    -1  
@@ -657,7 +605,7 @@ U 1 1 61614890
 P 10050 2850
 F 0 "J11" H 10130 2842 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 2751 50  0000 L CNN
-F 2 "PeltierSwitchingMainBoard:Power_Solder_Pad_5x10mm_02" H 10050 2850 50  0001 C CNN
+F 2 "BTS-MainBoard-Power:Power_Solder_Pad_5x10mm_02" H 10050 2850 50  0001 C CNN
 F 3 "~" H 10050 2850 50  0001 C CNN
 	1    10050 2850
 	1    0    0    -1  
@@ -751,7 +699,7 @@ F 3 "" H 9600 5100 50  0001 C CNN
 	1    9600 5100
 	0    1    1    0   
 $EndComp
-Text Label 5600 2650 2    50   ~ 0
+Text Label 5600 2600 2    50   ~ 0
 AHO
 Wire Wire Line
 	6200 2800 6200 2950
@@ -1077,4 +1025,56 @@ Text Notes 7000 7100 0    50   ~ 0
 Beer thermoregulation main power board. This board embeds the heart\nof the thermoregulation device, which is essentially a full bridge mosfet\ncircuit driven by a signal coming from the control board (mezzanine).\nThe full bridge powers several inductors in parallel (10µH each) in the aim to achieve 40A steady \ncurrent capacity, required to drive 8 Peltier modules at full power.\nThe inductors are meant to smooth out the output current in order to\nmax out the Peltier modules efficiency.
 Text Notes 9800 6450 0    50   Italic 0
 Designed by Benoit Tarrade\n(alias bebenlebricolo)\nhttps://github.com/bebenlebricolo
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 6140C534
+P 6100 2600
+F 0 "Q1" H 6305 2646 50  0000 L CNN
+F 1 "STD80N6F6" H 6305 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 6300 2700 50  0001 C CNN
+F 3 "~" H 6100 2600 50  0001 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3250 6200 3650
+Wire Wire Line
+	6200 1650 6200 2400
+Wire Wire Line
+	7700 3200 7700 3650
+Wire Wire Line
+	7700 1650 7700 2400
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 61418DBA
+P 7600 2600
+F 0 "Q3" H 7805 2646 50  0000 L CNN
+F 1 "STD80N6F6" H 7805 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7800 2700 50  0001 C CNN
+F 3 "~" H 7600 2600 50  0001 C CNN
+	1    7600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 614197F7
+P 7600 3850
+F 0 "Q4" H 7805 3896 50  0000 L CNN
+F 1 "STD80N6F6" H 7805 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7800 3950 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
+	1    7600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 61419F8A
+P 6100 3850
+F 0 "Q2" H 6305 3896 50  0000 L CNN
+F 1 "STD80N6F6" H 6305 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 6300 3950 50  0001 C CNN
+F 3 "~" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
