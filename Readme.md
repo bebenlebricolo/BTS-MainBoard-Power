@@ -10,7 +10,7 @@ Beer thermoregulation system mainboard  - power section
 This single sided board made with aluminum substrate carries an H-bridge which drives 8 peltier modules (10x10mm, 12VDC, 6.7A each) in parallel in either direction.
 It was designed with modularity in mind and good thermal dissipation properties, and this alone drove the design into the aluminum substrate land.
 
-![Board screenshot](../Documentation/Screenshots/BTS-MainBoard-Power-V0.1.0-front.png)
+![Board screenshot](Documentation/Screenshots/BTS-MainBoard-Power-V0.1.0-front.png)
 
 # Modularity
 Modularity is achieved via a standard 2.54 mm pitch header connector which is used to carry the Control board in a mezzanine configuration (boards V0.1.0 and V0.2.0).
