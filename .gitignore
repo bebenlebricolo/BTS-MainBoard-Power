@@ -2,4 +2,7 @@
 *.raw
 *.~lock*
 *.plt
+Simulations/*.net
 
+# Ignore Kicad backups as they can take a lot of room
+**/*backups/*.zip
