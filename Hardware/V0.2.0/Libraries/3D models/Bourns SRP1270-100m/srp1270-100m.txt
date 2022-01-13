@@ -1,0 +1,15 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.4";"";
+"SUPPLIER";"Bourns Electronics";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-26052016-103003";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Bourns SRP1270 Series Type 1270 Shielded Wire-wound SMD Inductor with a Iron Core, 10 μH ±20% Wire-Wound 16A Idc";"";
+"TraceParts.InstanceId";"10-26052016-1030039W6YLEERGCHIBU6ELTBIOAQ7F";"";
+"TraceParts.PartTitle";"Bourns SRP1270 Series Type 1270 Shielded Wire-wound SMD Inductor with a Iron Core, 10 μH ±20% Wire-Wound 16A Idc";"";
+"REFERENCE";"SRP1270-100M";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"rs_stock_number";"7361374";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-26052016-103003";"";
