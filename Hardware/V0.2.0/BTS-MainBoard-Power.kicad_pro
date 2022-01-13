@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 15.0,
-          "width": 7.0
+          "height": 4.56,
+          "width": 4.055
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -378,22 +378,56 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power track",
+        "name": "Bootstrapping",
         "nets": [
-          "+12V",
-          "/PeltierLeft",
+          "/AHO",
+          "/AHS",
+          "/ALO",
+          "/BHO",
+          "/BHS",
+          "/BLO",
+          "/DBootAnode1",
+          "/DBootAnode2",
+          "/FanSink",
+          "/HBoot1",
+          "/HBoot2",
+          "/HBridge/AHO_Gate",
+          "/HBridge/ALO_Gate",
+          "/HBridge/BHO_Gate",
+          "/HBridge/BLO_Gate",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 20.0,
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "/Psu12V",
+          "/Vcc"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 10.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
