@@ -1,6 +1,6 @@
 (footprint "ONSemi_SO-8FL_488AA" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DFFD84)
+  (tedit 61E92F50)
   (descr "ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A https://www.onsemi.com/pub/Collateral/488AA.PDF")
   (tags "ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A ")
   (property "Sheetfile" "hbridge.kicad_sch")
@@ -75,7 +75,7 @@
           (xy -0.6975 -2.775)
         ) (width 0) (fill yes))
     ) (tstamp 52dfd5c7-2cf0-4f72-9e02-c002a027db87))
-  (model "${KIPRJMOD}/Libraries/3D models/NTMSF5H419NL N Mosfet/SO-8FL.STEP"
+  (model "/home/groben/Documents/Repos/BeerThermoregulationSystem/BTS-MainBoard-Power/Hardware/Libraries/3D models/NTMSF5H419NL N Mosfet/SO-8FL.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "BTS-MainBoard-Power")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BTS-MainBoard-Power.pretty")(options "")(descr ""))
+  (lib (name "BTS-MainBoard-Power")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/BTS-MainBoard-Power.pretty")(options "")(descr ""))
+  (lib (name "BTS-MainBoard-Power-Labels")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/BTS-MainBoard-Power-Labels.pretty")(options "")(descr ""))
+  (lib (name "BTS-MainBoard-Power-Logos")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/BTS-MainBoard-Power-Logos.pretty")(options "")(descr ""))
 )

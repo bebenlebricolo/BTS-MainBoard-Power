@@ -1,6 +1,6 @@
 (footprint "L_Bourns_SRP1270" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DFFE11)
+  (tedit 61E92F3D)
   (descr "Bourns SRP1245A series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRP1245A.pdf")
   (tags "Bourns SRP1245A SMD inductor")
   (property "Sheetfile" "hbridge.kicad_sch")
@@ -54,7 +54,7 @@
   (fp_arc (start -5.75 6.25) (mid -6.138909 6.088909) (end -6.3 5.7) (layer "F.Fab") (width 0.1) (tstamp ed89749f-d60a-43e5-b1bb-3c5840912fb5))
   (pad "1" smd rect (at -5.5 0) (size 4.5 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 271f0d96-f6bc-4786-a97b-f6ec2128496c))
   (pad "2" smd rect (at 5.5 0) (size 4.5 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be35d731-ac99-4dce-8031-f78481e8513f))
-  (model "${KIPRJMOD}/Libraries/3D models/Bourns SRP1270-100m/69984.stp"
+  (model "/home/groben/Documents/Repos/BeerThermoregulationSystem/BTS-MainBoard-Power/Hardware/Libraries/3D models/Bourns SRP1270-100m/69984.stp"
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
